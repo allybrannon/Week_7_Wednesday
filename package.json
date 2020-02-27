@@ -1,0 +1,25 @@
+{
+  "name": "tuesday_node",
+  "version": "0.0.1",
+  "description": "tuesday node practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "WebServer",
+    "JavaScript"
+  ],
+  "author": "Ally Brannon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "engine": "^1.0.0",
+    "es6": "0.0.7",
+    "express": "^4.17.1",
+    "express-es6-template-engine": "^2.2.1",
+    "template": "^0.17.5"
+  }
+}
