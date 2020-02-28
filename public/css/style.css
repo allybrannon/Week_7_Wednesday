@@ -1,0 +1,44 @@
+html {
+  color: rgb(52, 50, 50);
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-image: url("../images/bee_background2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:visited {
+  color: rgb(56, 56, 133);
+}
+/*--- Media screen ---*/
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
